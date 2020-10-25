@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Digital';
+  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot');
+  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7')
+      format('svg');
+}
+
+$clr-jet: #312F2F;
+$myfont: 'Grenze Gotisch', cursive;
+$secfont: 'Yesteryear', cursive;
+
+#full-page{
+  background-color: $clr-jet;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  padding-bottom: 30px;
+  user-select: none;
+  .name{
+    
+    margin-top: 20px;
+    font-family: $secfont;
+    font-size: 20px;
+  
+   a {
+      color: red;
+      opacity: 0.9
+    }
+    a:hover{
+      text-decoration: none;
+      opacity: 1;
+      font-size: 25px;
+      color: red;
+    }
+
+    
+  }
+}
+.title {
+  font-family: $myfont;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.length-box{
+  display: flex;
+  flex-direction: row;
+  font-family:$myfont;
+ 
+  h2 {
+    font-size: 25px;
+    margin-bottom: -10px;
+  }
+  
+ 
+  div{
+    margin: 30px;
+    margin-top:20px;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+i {
+  cursor: pointer;
+  user-select: none;
+  font-size: 30px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timewrapper{
+  border: 5px solid rgba(0,0,0,0.5);
+  width: 300px;
+  height: 150px;
+  margin-top: -30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  h1{
+    font-family: $secfont;
+    font-size: 45px;
+  }
+}
+
+#controls {
+  margin-top: 10px;
+  .fa-sync{
+    margin-left: 10px;
+  }  
+}
+
+#time-left {
+  font-family: Digital;
+  font-size: 60px;
+  margin-top: -20px;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "pomodromo-clock",
+  "version": "1.0.0",
+  "description": "this is a 25 + 5 clock where you can use to monitor meetings with session and break length. of course you can make it more than 25 + 5",
+  "keywords": [
+    "clock",
+    "pomodromo",
+    "25 + 5 clock",
+    "pomodromo clock"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "font-awesome": "4.7.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
